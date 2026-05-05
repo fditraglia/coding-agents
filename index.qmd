@@ -26,10 +26,16 @@ format:
 
 ## Coding agents vs chat
 
+::: {layout-ncol=2}
+
 - chat: copy-paste loop
 - agents: read, edit, run, iterate
 - plan → act → observe → revise
 - self-correction (coding has built-in verification)
+
+![](happy-guy.png)
+
+:::
 
 ## {background-image="claude-code-in-action.png" background-size="contain"}
 
@@ -45,10 +51,16 @@ format:
 
 ## Sandboxing & safety
 
+::: {layout-ncol=2}
+
 - permissions: what it can do / when it asks
 - defaults: read-mostly, no internet
 - levels: ask-all → folder-bounded → isolated env
 - version control = safety net
+
+![](sad-guy.png)
+
+:::
 
 ## Unexploited individual productivity
 
