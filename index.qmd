@@ -22,12 +22,16 @@ format:
 
 :::
 
+## {background-image="two-guys-bus.png" background-size="contain"}
+
 ## Coding agents vs chat
 
 - chat: copy-paste loop
 - agents: read, edit, run, iterate
 - plan → act → observe → revise
 - self-correction (coding has built-in verification)
+
+## {background-image="claude-code-in-action.png" background-size="contain"}
 
 ## How to access
 
@@ -36,6 +40,8 @@ format:
 - Desktop app
 - Web: [claude.ai/code](https://claude.ai/code) · [chatgpt.com/codex](https://chatgpt.com/codex)
 - Docs: [code.claude.com/docs](https://code.claude.com/docs/en/overview) · [developers.openai.com/codex](https://developers.openai.com/codex)
+
+## {background-image="claude-code-VScode.png" background-size="contain"}
 
 ## Sandboxing & safety
 
@@ -46,19 +52,31 @@ format:
 
 ## Unexploited individual productivity
 
+::: {layout-ncol=2}
+
 - unknown unknowns
 - typing → 1 month → 10 years
 - couldn't have known the upside
 - forcing function (hand pain)
 - cost of finding out is now small
 
+![a commitment device](happy-hacking.jpg){width="400px"}
+
+:::
+
 ## Varian + the open-source flip
+
+::: {layout-ncol=2}
 
 - Varian (1993)
 - commercial: friendly-but-shallow
 - open-source: powerful-but-hard
 - intensive user squeezed both sides
 - Overleaf as case
+
+![](varian.png)
+
+:::
 
 ## Two inefficiencies, one tool
 
@@ -98,6 +116,12 @@ format:
 - Ollama vs MLX: 1.5× on M4 Max
 - Live: [huggingface.co/spaces/fditraglia/referee-recommender](https://huggingface.co/spaces/fditraglia/referee-recommender)
 - Source: [github.com/fditraglia/econbase-abstracts](https://github.com/fditraglia/econbase-abstracts)
+
+## {background-image="zoom-summary-1.png" background-size="contain"}
+
+##
+
+![](zoom-summary-2.png){.r-stretch}
 
 ## More tools
 
