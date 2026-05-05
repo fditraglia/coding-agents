@@ -1,64 +1,113 @@
 ---
-title: "AI Coding Agents for Academic Productivity"
-author: "Frank DiTraglia"
+title: "Coding Agents for Fun and Profit" 
+author: "Frank DiTraglia, University of Oxford"
 format:
   revealjs:
     embed-resources: true
 ---
 
-## Welcome
+## 
 
-- TBD
-- Please interrupt with questions as we go
+### Overview of coding agents for Economics 
+
 - Slides: [ditraglia.com/coding-agents](https://ditraglia.com/coding-agents)
+- Please interrupt and ask questions! 
 
-## Wise words from Ada Lovelace {.smaller}
+### More to Learn
 
-::: {layout-ncol=2}
-
-> It is desirable to guard against the possibility of exaggerated ideas that might arise as to the powers of the Analytical Engine. In considering any new subject, there is frequently a tendency, first, to *overrate* what we find to be already interesting or remarkable; and, secondly, by a sort of natural reaction, to *undervalue* the true state of the case, when we do discover that our notions have surpassed those that were really tenable.
-
-![](ada-lovelace.jpg){width="400px"}
-
-:::
+- [Simon Willison: Agentic Engineering Patterns](https://simonwillison.net/guides/agentic-engineering-patterns/)
+- [Claes Backman: Claude Code for Academic Economists](https://claesbackman.com/claude-code-guide.html)
+- [Chris Blattman: claudeblattman.com](https://claudeblattman.com)
+- [Pedro Sant'Anna: My Claude Code Setup](https://psantanna.com/claude-code-my-workflow/)
 
 ## {background-image="two-guys-bus.png" background-size="contain"}
 
-## Coding agents vs chat
 
-::: {layout-ncol=2}
 
-- chat: copy-paste loop
-- agents: read, edit, run, iterate
-- plan → act → observe → revise
-- self-correction (coding has built-in verification)
+## {.smaller}
 
-![](happy-guy.png)
+::: columns
+
+::: {.column width="50%"}
+### Chatbots
+- Copy and paste from your computer to the chat and back. 
+- Thin context: LLM only knows what you've told it in this session.
+
+### Agents
+- Reads files, runs code and examines output directly from your computer.
+- Rich context: notes, files, codebase, images, audio
 
 :::
 
+::: {.column width="50%"}
+![](happy-guy.png)
+:::
+
+:::
+
+## How can these wonders be obtained? 
+
+- Subscribe to Claude / ChatGPT? *You already have access.*
+  - [Claude Code](https://code.claude.com/docs/en/overview)
+  - [Codex](https://openai.com/codex/)
+- Where and how to use? 
+  - From the terminal: `claude` / `codex`
+  - VS Code extensions
+  - Desktop App 
+  - Web: [claude.ai/code](https://claude.ai/code) · [chatgpt.com/codex](https://chatgpt.com/codex)
+
+
 ## {background-image="claude-code-in-action.png" background-size="contain"}
-
-## How to access
-
-- Terminal: `claude` / `codex`
-- VS Code / Cursor extensions
-- Desktop app
-- Web: [claude.ai/code](https://claude.ai/code) · [chatgpt.com/codex](https://chatgpt.com/codex)
-- Docs: [code.claude.com/docs](https://code.claude.com/docs/en/overview) · [developers.openai.com/codex](https://developers.openai.com/codex)
 
 ## {background-image="claude-code-VScode.png" background-size="contain"}
 
-## Sandboxing & safety
+## Claude erased my hard drive! {.smaller}
 
 ::: {layout-ncol=2}
 
-- permissions: what it can do / when it asks
-- defaults: read-mostly, no internet
-- levels: ask-all → folder-bounded → isolated env
-- version control = safety net
+- Safety / sandboxing are crucial 
+- Two settings: 
+  1. What can it do?
+  2. When does it have to ask? 
+- Defaults: read-mostly, no internet, asks before destructive actions
+- Three levels:
+    - Ask for everything
+    - Work in this folder only
+    - Fully auttonomous 
+- Helps to know a *bit* about the terminal
+- **Version control (git) is your safety net**
+
 
 ![](sad-guy.png)
+
+:::
+
+##  {.smaller}
+
+::: {layout-ncol=2}
+
+
+::: {.column width="50%"}
+![](happy-hacking.jpg){width="400px"}
+
+
+#### Why you're not more productive: 
+
+1. Unknown unknowns 
+2. Imperfect competition 
+
+#### Coding agents solve both:
+
+1. Learn new skills cheaply
+2. Roll your own
+
+:::
+
+
+::: {.column width="50%"}
+
+![](varian.png)
+:::
 
 :::
 
@@ -163,9 +212,13 @@ format:
 - use — low stakes, fast feedback
 - tinker. don't be a passenger.
 
-## Where to go next
 
-- Claes Backman, *Claude Code for Academic Economists*: [claesbackman.com/claude-code-guide.html](https://claesbackman.com/claude-code-guide.html)
-- Chris Blattman: [claudeblattman.com](https://claudeblattman.com)
-- Simon Willison, *Agentic Engineering Patterns*: [simonwillison.net/guides/agentic-engineering-patterns](https://simonwillison.net/guides/agentic-engineering-patterns/)
-- Slides: [ditraglia.com/coding-agents](https://ditraglia.com/coding-agents)
+## Wise words from Ada Lovelace {.smaller}
+
+::: {layout-ncol=2}
+
+> It is desirable to guard against the possibility of exaggerated ideas that might arise as to the powers of the Analytical Engine. In considering any new subject, there is frequently a tendency, first, to *overrate* what we find to be already interesting or remarkable; and, secondly, by a sort of natural reaction, to *undervalue* the true state of the case, when we do discover that our notions have surpassed those that were really tenable.
+
+![](ada-lovelace.jpg){width="400px"}
+
+:::
