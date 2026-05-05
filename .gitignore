@@ -1,0 +1,13 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Claude
+.claude
+
+# Local-only working notes (transcripts, source material, drafts that shouldn't be public)
+notes/
+
+# Quarto cache
+.quarto/
+_freeze/

@@ -1,0 +1,13 @@
+---
+title: "AI Coding Agents for Academic Productivity"
+author: "Frank DiTraglia"
+format:
+  revealjs:
+    embed-resources: true
+---
+
+## Placeholder
+
+These slides are under construction.
+
+[https://ditraglia.com/coding-agents](https://ditraglia.com/coding-agents)
